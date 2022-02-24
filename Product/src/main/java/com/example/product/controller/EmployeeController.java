@@ -20,5 +20,9 @@ public class EmployeeController {
     public Employee findEmployeeById(@PathVariable("id") String employeeId){
         return employeeService.findEmployeeById(employeeId);
     }
-
+//    search by designation, trial
+    @GetMapping("/{designation}")
+    public Employee findEmployeeByDesignation(@PathVariable("designation") String desig){
+        return employeeService.findEmployeeById(desig);
+    }
 }

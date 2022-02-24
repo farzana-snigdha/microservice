@@ -17,4 +17,7 @@ public class EmployeeService {
     public Employee findEmployeeById(String userId) {
         return employeeRepository.findEmployeeById(userId);
     }
+    public Employee findEmployee(String desig) {
+        return employeeRepository.findEmployeeByDesignation(desig);
+    }
 }
