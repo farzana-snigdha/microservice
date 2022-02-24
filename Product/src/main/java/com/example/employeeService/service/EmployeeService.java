@@ -1,9 +1,9 @@
-package com.example.product.service;
+package com.example.employeeService.service;
 
-import com.example.product.entity.Employee;
+import com.example.employeeService.entity.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.example.product.repository.EmployeeRepository;
+import com.example.employeeService.repository.EmployeeRepository;
 
 @Service
 public class EmployeeService {

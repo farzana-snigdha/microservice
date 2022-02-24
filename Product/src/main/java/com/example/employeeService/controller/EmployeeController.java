@@ -1,7 +1,7 @@
-package com.example.product.controller;
+package com.example.employeeService.controller;
 
-import com.example.product.entity.Employee;
-import com.example.product.service.EmployeeService;
+import com.example.employeeService.entity.Employee;
+import com.example.employeeService.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
