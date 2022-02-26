@@ -7,7 +7,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
-@Document(collection = "employees")
+@Document(collection = "orders")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
