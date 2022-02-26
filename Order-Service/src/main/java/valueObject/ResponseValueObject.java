@@ -7,4 +7,16 @@ public class ResponseValueObject{
     private Product product;
     private Employee employee;
     private Order order;
+
+    public void setCustomer(Customer customer) {
+    }
+
+    public void setProduct(Product product) {
+    }
+
+    public void setEmployee(Employee employee) {
+    }
+
+    public void setOrder(Order order) {
+    }
 }
